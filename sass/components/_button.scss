@@ -42,6 +42,14 @@
       background-color: $color-white;
     }
   }
+  &--green {
+    background-color: $color-primary-light;
+    color: $color-text;
+
+    &::after {
+      background-color: $color-white;
+    }
+  }
 
   &--animation {
     animation: moveTotop 0.5s ease 0.5s;

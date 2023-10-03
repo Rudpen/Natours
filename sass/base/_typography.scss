@@ -30,8 +30,8 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(
     to right,
-    rgba($color-primary-light, 0.8),
-    rgba($color-primary-dark, 0.8)
+    $color-primary-light,
+    $color-primary-dark
   );
   background-clip: text;
   color: transparent;
@@ -47,6 +47,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .paragraph {
   font-size: 1.6rem;
   &:not(:last-child) {
